@@ -84,8 +84,6 @@ public fun binarySearch<T: Comparable>(_ a: [T], key: T) -> Int? {
 }
 
 
-
-
 Python: Heap Sort -> O(n * log n)
 Cálculo:
 A altura de uma Heap é de tamanho logn, sendo assim, o método Heapify, no seu pior caso, onde o nó raiz deverá descer toda a altura da árvore, serão feitos logn processos, fazendo sua complexidade ser O(logn).
@@ -122,10 +120,6 @@ def heapSort(arr):
                 heapify(arr, i ,0)
 
 
-
-
-
-
 Kotlin: Calculando tamanho do array -> O(n)
 Cálculo:
 No seguinte método, é percorrido todo o vetor para definir o seu tamanho. Assim, o pior caso é O(n), pois é necessário percorrer todo n tamanho de entrada do vetor.
@@ -140,7 +134,6 @@ fun main(args: Array<String>) {
     }
     println("Array size : $length")
 }
-
 
 
 
@@ -250,22 +243,6 @@ int factorialRecurrent(unsigned long InputValue)
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Go: Kadanes -> O(n)
 Cálculo:
 O algoritmo de Kadanes serve para achar o sub-vetor de um vetor cuja soma de seus elementos é a maior possível dentro de todos os outros sub-vetores. Para fazer isso, ele percorre o vetor com um for do começo ao fim utilizando funções de máximo para conseguir obter o sub-vetor com a maior soma. Complexidade = O(n)
@@ -294,27 +271,6 @@ func Kadane(arr []int64) int64 {
         }
         return maxSoFar
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -347,30 +303,6 @@ fn linear_search(list: Vec<i32>, target: i32) -> Option<usize> {
         }
         return None;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 b) 
@@ -420,10 +352,6 @@ a(j)=temp
 } 
 } 
 }
-
-
-
-
 
 
 c) 
